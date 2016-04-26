@@ -1,5 +1,5 @@
 require( 'minitest/autorun' )
-require_relative( 'ruby_functions_practice' )
+require_relative( '../ruby_functions_practice' )
 
 class Functions_Practice < MiniTest::Test
 
@@ -72,6 +72,9 @@ class Functions_Practice < MiniTest::Test
   end
 
   #Given the radius of a sphere calculate the volume
+  #PI Math::PI
+  #use float numbers
+  #.round(arg) how many d
   def test_volume_of_sphere()
 
   end
