@@ -68,6 +68,8 @@ class Functions_Practice < MiniTest::Test
 
   #Given the length of a side of a cube calculate the volume 
   def test_volume_of_cube()
+    volume_of_cube = l_h_d(1000)
+    assert_equal(1000, volume_of_cube)
 
   end
 
