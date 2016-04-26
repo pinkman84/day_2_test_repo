@@ -9,3 +9,23 @@ end
 def subtract(num_1, num_2)
   return num_1 - num_2
 end
+
+def multiply (num_1, num_2)
+  return num_1 * num_2
+end
+
+def divide (num_1, num_2)
+  return num_1 / num_2
+end
+
+def length_of_string(string)
+  string = "A string of length 21"
+  return string.length
+end
+
+def join_string(string_1, string_2)
+  join_string = string_1 + string_2
+end
+
+
+
