@@ -68,7 +68,7 @@ class Functions_Practice < MiniTest::Test
 
   #Given the length of a side of a cube calculate the volume 
   def test_volume_of_cube()
-    volume_of_cube = l_h_d(1000)
+    volume_of_cube = l_h_d(10, 10, 10)
     assert_equal(1000, volume_of_cube)
 
   end
@@ -78,7 +78,8 @@ class Functions_Practice < MiniTest::Test
   #use float numbers
   #.round(arg) how many d
   def test_volume_of_sphere()
-
+    volume_of_sphere = volume(4.0/3.0, Math::PI, 5**5)
+    assert_equal(523.59, volume_of_sphere)
   end
 
   #http://ruby-doc.org/stdlib-2.1.1/libdoc/date/rdoc/Date.html
